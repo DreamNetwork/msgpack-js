@@ -39,7 +39,7 @@ Decoder.prototype.buf = function (length) {
   return value;
 };
 Decoder.prototype.raw = function (length) {
-  var value = bops.to(bops.subarray(this.buffer, this.offset, this.offset + length));
+  var value = bops.to(bops.subarray(this.buffer, this.offset, this.offset + length), "hex");
   this.offset += length;
   return value;
 };
@@ -211,7 +211,7 @@ function encode(value, buffer, offset) {
 
   // Strings Bytes
   if (type === "string") {
-    value = bops.from(value);
+    value = bops.from(value, "hex");
     length = value.length;
     // fix raw
     if (length < 0x20) {
