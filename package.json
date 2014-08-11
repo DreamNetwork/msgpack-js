@@ -1,18 +1,19 @@
 {
   "author": "Tim Caswell <tim@creationix.com>",
-  "name": "msgpack-js",
+  "contributors": ["Carl Kittelberger <icedream2k9@die-optimisten.net>"],
+  "name": "msgpack-js-binfix",
   "description": "msgpack encoder and decoder in pure javascript",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/creationix/msgpack-js.git"
+    "url": "git://github.com/DreamNetwork/msgpack-js.git"
   },
   "main": "msgpack.js",
   "dependencies": {
-    "bops": "~0.0.6"
+    "bops": "~0.1"
   },
   "devDependencies": {
-    "tape": "~1.0.2"
+    "tape": "*"
   },
   "scripts": {
     "test": "node test.js"

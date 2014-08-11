@@ -1,8 +1,8 @@
 # msgpack for JavaScript
 
-[![node support](https://travis-ci.org/creationix/msgpack-js.png)](https://travis-ci.org/creationix/msgpack-js)
+[![node support](https://travis-ci.org/DreamNetwork/msgpack-js.png)](https://travis-ci.org/DreamNetwork/msgpack-js)
 
-[![browser support](https://ci.testling.com/creationix/msgpack-js.png)](https://ci.testling.com/creationix/msgpack-js)
+[![browser support](https://ci.testling.com/DreamNetwork/msgpack-js.png)](https://ci.testling.com/DreamNetwork/msgpack-js)
 
 
 A handwritten msgpack encoder and decoder for Node.JS and modern browsers.
